@@ -4,7 +4,7 @@ import { animated, useSpring } from 'react-spring';
 import './Curtain.css';
 
 const Curtain = ({ isOpen }) => {
-  const props = useSpring({ height: isOpen ? '200px' : '0px' });
+  const props = useSpring({ height: isOpen ? '100%' : '0%' });
 
   return (
     <animated.div
